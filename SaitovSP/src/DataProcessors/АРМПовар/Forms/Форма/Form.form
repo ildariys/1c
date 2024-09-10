@@ -320,7 +320,6 @@
     <items xsi:type="form:FormField">
       <name>СостояниеБлюдГотово</name>
       <id>42</id>
-      <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
@@ -363,7 +362,6 @@
     <items xsi:type="form:FormField">
       <name>СостояниеБлюдСсылкаЗаказ</name>
       <id>61</id>
-      <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>

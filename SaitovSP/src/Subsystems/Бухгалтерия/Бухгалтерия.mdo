@@ -20,7 +20,7 @@
   <content>InformationRegister.ИсторияНачисленияЗароботнойПлаты</content>
   <content>Report.ВыплатыАвансов</content>
   <content>Document.РКО</content>
-  <content>Report.ВедомостьВЗаиморасчетовСПоставщиками</content>
+  <content>Report.ВедомостьВзаиморасчетовСПоставщиками</content>
   <content>Document.РКОЦентральногоОфиса</content>
   <content>InformationRegister.ЦеныЗакупкиНоменклатур</content>
 </mdclass:Subsystem>

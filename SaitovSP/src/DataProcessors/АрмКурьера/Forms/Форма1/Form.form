@@ -215,6 +215,10 @@
     <items xsi:type="form:FormField">
       <name>Реквизит1КлиентНомерТелефона</name>
       <id>26</id>
+      <title>
+        <key>ru</key>
+        <value>Номер телефона</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -265,6 +269,10 @@
     <items xsi:type="form:FormField">
       <name>Реквизит1КлиентАдресДоставки</name>
       <id>29</id>
+      <title>
+        <key>ru</key>
+        <value>Адрес</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>

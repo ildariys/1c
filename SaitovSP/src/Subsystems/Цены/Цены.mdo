@@ -9,4 +9,5 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>InformationRegister.ЦеныБлюд</content>
   <content>Document.УстановитьЦеныБлюд</content>
+  <content>Role.МенеджерыРесторана</content>
 </mdclass:Subsystem>

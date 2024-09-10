@@ -1346,7 +1346,6 @@
             <items xsi:type="form:FormField">
               <name>БлюдаИдентификаторСтроки</name>
               <id>187</id>
-              <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
                 <common>true</common>

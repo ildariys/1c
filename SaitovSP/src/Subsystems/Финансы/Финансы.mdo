@@ -10,7 +10,7 @@
   <content>AccumulationRegister.ДенежныеСредстваСети</content>
   <content>AccumulationRegister.Взаиморасчеты</content>
   <content>Document.УстановитьЦеныБлюд</content>
-  <content>Document.НазанчениеОклада</content>
+  <content>Document.НазаначениеОклада</content>
   <content>Document.ПриходнаяНакладная</content>
   <content>Document.Инкасация</content>
   <content>Document.НачислениеЗарплаты</content>
@@ -20,7 +20,7 @@
   <content>Report.ПогашенныеСертификаты</content>
   <content>AccumulationRegister.ЗароботнаяПлата</content>
   <content>InformationRegister.Сертификаты</content>
-  <content>Report.ВедомостьВЗаиморасчетовСПоставщиками</content>
+  <content>Report.ВедомостьВзаиморасчетовСПоставщиками</content>
   <content>Document.РКОЦентральногоОфиса</content>
   <content>InformationRegister.ЦеныЗакупкиНоменклатур</content>
   <content>Document.РасходПродуктов</content>

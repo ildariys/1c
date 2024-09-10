@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="38ed40c9-cdea-4095-b4c3-f2de9fa53f04">
-  <name>ЦентральныйОфис</name>
-  <synonym>
-    <key>ru</key>
-    <value>Центральный офис</value>
-  </synonym>
-</mdclass:Role>
