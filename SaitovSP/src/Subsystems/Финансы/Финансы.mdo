@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eb76ceb7-90f6-46e6-ad17-acb25c4bb5fc">
+  <name>Финансы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Финансы</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>AccumulationRegister.ДенежныеСредстваСети</content>
+  <content>AccumulationRegister.Взаиморасчеты</content>
+  <content>Document.УстановитьЦеныБлюд</content>
+  <content>Document.НазанчениеОклада</content>
+  <content>Document.ПриходнаяНакладная</content>
+  <content>Document.Инкасация</content>
+  <content>Document.НачислениеЗарплаты</content>
+  <content>Report.ОстаткиДенежныхСредств</content>
+  <content>Report.ОстаткиТоваров</content>
+  <content>Report.ОтчетОПродажаж</content>
+  <content>Report.ПогашенныеСертификаты</content>
+  <content>AccumulationRegister.ЗароботнаяПлата</content>
+  <content>InformationRegister.Сертификаты</content>
+  <content>Report.ВедомостьВЗаиморасчетовСПоставщиками</content>
+  <content>Document.РКОЦентральногоОфиса</content>
+  <content>InformationRegister.ЦеныЗакупкиНоменклатур</content>
+  <content>Document.РасходПродуктов</content>
+</mdclass:Subsystem>

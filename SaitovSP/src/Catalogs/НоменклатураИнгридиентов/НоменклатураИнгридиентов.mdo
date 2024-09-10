@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="95159090-c636-44a9-bc33-37d1cb50aeec">
+  <producedTypes>
+    <objectType typeId="ce876ec6-e9b0-4df2-9f6a-719107f8bc92" valueTypeId="34bfd36d-f6fb-46ab-8d93-f27c71dfaec4"/>
+    <refType typeId="7da1d47c-a9c4-40e7-bf55-e59134525409" valueTypeId="caeb65af-6612-4f2e-9e4a-e2b659d44b5f"/>
+    <selectionType typeId="5ae1fbc3-a60c-42ac-a4da-5ecde6780efd" valueTypeId="d1067390-be1c-44a3-aa7d-feb80e3a2272"/>
+    <listType typeId="40306956-62d0-48c2-8575-f86e9401e626" valueTypeId="d7840f85-880d-4a85-8ffd-12a57be0f355"/>
+    <managerType typeId="3d9757b4-d9ce-43a9-bb78-1bac38a0ee86" valueTypeId="fd8c23a0-4fce-407c-b0d7-123ced3167b9"/>
+  </producedTypes>
+  <name>НоменклатураИнгридиентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номенклатура ингридиентов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.НоменклатураИнгридиентов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.НоменклатураИнгридиентов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="5a7d1047-1d94-4671-8d13-4b1a388350d1">
+    <name>УчетнаяЕдиница</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учетная единица</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УчетнаяЕдиница</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

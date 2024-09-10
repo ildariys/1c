@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7043701d-305f-4cdb-8ad4-9c9333b254c2">
+  <producedTypes>
+    <objectType typeId="0ff896dc-b17a-4934-86c6-f6183f9592cb" valueTypeId="a113cbe0-70b4-4546-a0a6-fb09f1ad77cd"/>
+    <refType typeId="051e5af8-39d9-453a-b3d6-4a0094fbaa31" valueTypeId="dcd8259d-16f1-4c1f-90c7-cd28c172b28d"/>
+    <selectionType typeId="018de6f4-1239-44c7-92d0-97860868f55c" valueTypeId="dbf48ae4-7e45-4dba-ac90-872fa5d6075e"/>
+    <listType typeId="f4861146-0fa0-4ecd-8ccc-613329ca8c65" valueTypeId="79ca49c5-0e6c-47bb-aaaf-4c2af6ca905b"/>
+    <managerType typeId="b1414298-c3cb-43d2-8d9d-d5d975f707ae" valueTypeId="6569f499-b4c3-4df7-a98e-68e9fa859fa1"/>
+  </producedTypes>
+  <name>Поставщики</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поставщики</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Поставщики.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Поставщики.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="8e649511-b166-4014-9bde-2e4b6d8c9b67">
+    <name>ИНН</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИНН</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+        <fixed>true</fixed>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value>          </value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6f47bd50-561a-46e8-a67c-6e3427e058ca">
+    <name>НомерТелефона</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер телефона</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>18</length>
+      </stringQualifiers>
+    </type>
+    <mask>+7 (999)-999-99-99</mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="821d0dcf-4359-4d25-accc-540d0ddaab0f">
+    <name>Адрес</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

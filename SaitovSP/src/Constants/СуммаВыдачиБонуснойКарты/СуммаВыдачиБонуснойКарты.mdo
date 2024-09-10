@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bc1c51bf-195e-491c-9da7-ea5b4d18bcac">
+  <producedTypes>
+    <managerType typeId="4b4a841e-b4bb-4796-9d61-065879f98761" valueTypeId="1d037f1e-1fda-4cd6-b62d-20ec1d7b29ae"/>
+    <valueManagerType typeId="2ac88ead-6752-4110-ab81-02727a10e7c9" valueTypeId="7d8f8a74-2e78-4b9e-9acc-2c3988a9f1e4"/>
+    <valueKeyType typeId="5ea5133f-eeeb-4f9f-bc9d-ec050535885f" valueTypeId="ccd06254-74d5-4a11-82fe-aac54f67ca15"/>
+  </producedTypes>
+  <name>СуммаВыдачиБонуснойКарты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сумма выдачи бонусной карты</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

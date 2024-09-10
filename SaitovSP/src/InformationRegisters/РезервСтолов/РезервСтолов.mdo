@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6652ab9f-75ca-473b-aa0c-c7e892ba435d">
+  <producedTypes>
+    <selectionType typeId="dde9c4c2-2160-4f64-ba21-6cdb10114c40" valueTypeId="4478fc0f-b2cc-48ee-b6e0-f7e59c00f7a2"/>
+    <listType typeId="d084d8b5-ab60-4582-a079-d45b5d7699c2" valueTypeId="94e3e08a-cde3-424b-9289-7909fab0b29a"/>
+    <managerType typeId="d9ecaacd-d014-48fb-9827-a086ede7c500" valueTypeId="6bb29076-a223-4227-b918-f178253d2f4c"/>
+    <recordSetType typeId="799f6aa6-03b2-4255-a921-0aed9cd86efd" valueTypeId="cbfa05d2-9b93-4e8a-83ce-ad982f12b5fb"/>
+    <recordKeyType typeId="fb1129ff-6584-488d-890a-c31419a6d233" valueTypeId="f479674f-e553-4867-9227-0c3d791d624e"/>
+    <recordType typeId="ce653991-d441-4a71-b5a8-ac1e45730f6c" valueTypeId="d6e9c040-a682-4840-a444-efb80e8a6d20"/>
+    <recordManagerType typeId="9a5e2815-eec3-4f99-9bcc-3b8192331afb" valueTypeId="0faba2ad-070d-4ec2-9c48-2e032ffa386d"/>
+  </producedTypes>
+  <name>РезервСтолов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Резерв столов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="fa9598c2-7e4a-43ca-a5d8-cc5879a232cf">
+    <name>ДатаРезерва</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата резерва</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="8658e6e2-b595-4549-9fde-7e0d34a1d771">
+    <name>Стол</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стол</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Столы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0e630b95-0e0f-42ec-bea7-6580dad4013f">
+  <producedTypes>
+    <selectionType typeId="f0216654-d756-4fb9-a991-6c064ce2f45c" valueTypeId="f70efd4e-38be-46dd-847e-df1d380ed990"/>
+    <listType typeId="2956a338-bfba-4a0d-bb5b-765315d1fcb4" valueTypeId="2afe6da1-924b-41db-857e-a01992e8a3ca"/>
+    <managerType typeId="f3fa0805-49cf-48ff-9dbf-a896ec0b15c5" valueTypeId="888edb55-3d52-484c-b4b0-eda33db9cb9f"/>
+    <recordSetType typeId="17a18bcc-cd6a-47de-849d-44db8bfa15d0" valueTypeId="8fea38ea-7c50-45f1-b68f-f0e161127c1f"/>
+    <recordKeyType typeId="c4f25edb-3ed3-4001-91b7-9634fb654205" valueTypeId="fa2b399b-5c55-49cf-8791-f748e486e3ff"/>
+    <recordType typeId="db6805d5-d0a2-4b7c-8ad2-b8b19b437ede" valueTypeId="33d3dbd6-d658-4b49-8478-b74ad55e6e23"/>
+    <recordManagerType typeId="f4b38aad-0caa-40e9-a5c7-f143b05378be" valueTypeId="0be6049c-df16-47ea-b885-3f2fcaaf92c8"/>
+  </producedTypes>
+  <name>ГотовностьБлюд</name>
+  <synonym>
+    <key>ru</key>
+    <value>Готовность блюд</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="d97492b7-0488-4e4a-a406-a6f62e4b27ba">
+    <name>Стол</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стол</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Столы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

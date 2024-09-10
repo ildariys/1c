@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f5301d55-f973-42d2-9f37-1fb08b11c839">
+  <producedTypes>
+    <objectType typeId="db038e5e-b366-4cea-820a-5f8f12b833eb" valueTypeId="03b1fcdb-c391-4b69-8941-71bf225c2756"/>
+    <managerType typeId="1a456c90-859c-4f47-af17-4aee0c3298c8" valueTypeId="b356fdee-809d-45bb-afdd-adf5a9d5a2af"/>
+  </producedTypes>
+  <name>ВыплатыАвансов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выплаты авансов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ВыплатыАвансов.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="bfc65260-7da9-4549-818e-20197b961474">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

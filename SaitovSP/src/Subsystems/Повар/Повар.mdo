@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5a4cc57a-8af6-4ef7-b1b9-81a793656814">
+  <name>Повар</name>
+  <synonym>
+    <key>ru</key>
+    <value>Повар</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Блюда</content>
+  <content>Document.Заказы</content>
+  <content>InformationRegister.ЦеныБлюд</content>
+  <content>AccumulationRegister.ПродуктыРесторана</content>
+  <content>Report.Меню</content>
+  <content>Report.ОстаткиТоваров</content>
+  <content>Enum.РазделыМеню</content>
+  <content>Catalog.УчетнаяЕдиница</content>
+  <content>Catalog.НоменклатураИнгридиентов</content>
+  <content>InformationRegister.ГотовностьБлюд</content>
+  <content>InformationRegister.ИсторияИзмененийРепцетурыБлюд</content>
+  <content>DataProcessor.АРМПовар</content>
+  <content>Document.РасходПродуктов</content>
+</mdclass:Subsystem>

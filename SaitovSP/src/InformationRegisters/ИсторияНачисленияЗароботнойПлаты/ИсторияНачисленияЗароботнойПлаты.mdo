@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9cb5a917-b641-44f9-bb22-cdea8daabd08">
+  <producedTypes>
+    <selectionType typeId="bf61fefe-bdf2-4954-92a9-e24fbae0c0cc" valueTypeId="81918560-e205-4186-b9ce-a62f3665ab8b"/>
+    <listType typeId="1484ecac-f546-476f-bc1a-9da6c98d73fc" valueTypeId="9cd24dab-89ca-4e53-9757-ef6983dd5a47"/>
+    <managerType typeId="d4c6fe82-6670-4a6f-b167-ca2b53b651ea" valueTypeId="9e78e199-ca16-44c1-ae53-20096378a062"/>
+    <recordSetType typeId="acd11e95-735a-435c-917b-97e626e0ccd0" valueTypeId="5de1d72c-0636-4255-8b17-dfbc01d1483a"/>
+    <recordKeyType typeId="49e5e431-0cbb-4dc2-a133-c5bbc39b186e" valueTypeId="8c35b15b-766f-4dda-982b-5458de742d74"/>
+    <recordType typeId="f85736c2-062f-41f1-8583-cfa5834be6ab" valueTypeId="285ad648-2aad-4cd5-92fa-d6d687ba226c"/>
+    <recordManagerType typeId="1b0e4fd3-e846-4814-ac66-2c754618312c" valueTypeId="89536230-4366-4613-ac8d-83015a6dc400"/>
+  </producedTypes>
+  <name>ИсторияНачисленияЗароботнойПлаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>История начисления зароботной платы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="bd7984e7-d456-4060-b22e-8ced7c96dc21">
+    <name>Отвественный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отвественный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

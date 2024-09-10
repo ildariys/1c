@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="731f0ff3-7bb1-4bdb-925f-70f2ef474201">
+  <producedTypes>
+    <objectType typeId="306e6891-42a5-424a-bc5b-9a35a3e4561e" valueTypeId="f087becd-a834-458d-be3b-aaa7430b62ac"/>
+    <refType typeId="2aa5d75c-8e8a-478a-9ebb-c7be8d8db1cc" valueTypeId="a5838159-6333-43dc-bc80-811f4a6d83e5"/>
+    <selectionType typeId="8c664f33-d88e-44d1-94f2-593f4c3159c0" valueTypeId="0d5024d5-b645-4a7d-b7c4-6ce57cad4dcc"/>
+    <listType typeId="1f2382b9-35a2-444f-9bca-bc1b28715082" valueTypeId="c0415ea8-5601-4680-95de-cc560e77652b"/>
+    <managerType typeId="95cd2fa6-cdd6-4391-96cc-d4abf0e71a49" valueTypeId="440840b3-8a6b-4df9-bd72-28c30dc00792"/>
+  </producedTypes>
+  <name>Заказы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заказы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Заказы.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.Заказы.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.Заказы.Form.ФормаСписка</defaultListForm>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecords>InformationRegister.ИсторияОтказовОтБлюд</registerRecords>
+  <registerRecords>InformationRegister.РезервСтолов</registerRecords>
+  <registerRecords>AccumulationRegister.СуммаЗаказовКлиенты</registerRecords>
+  <registerRecords>AccumulationRegister.КоличествоЗаказовАкция</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="866fdb7e-a248-4cf7-bb87-fdfec4e87f6c">
+    <name>Официант</name>
+    <synonym>
+      <key>ru</key>
+      <value>Официант</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fe1c209a-53cd-4314-b04c-8abd289b009e">
+    <name>НомерСтола</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер стола</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Столы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fb670944-408b-49e5-b8f3-20798758ae40">
+    <name>ДатаЗакрытияЗаказа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата закрытия заказа</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="60cf2d64-c173-4f58-9c5d-6f8fcbcf4592">
+    <name>ЗаказЗакрыт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ закрыт</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="595721b8-ba51-4428-92b4-dc426a341a0f">
+    <name>Ресторан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ресторан</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Рестораны</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="061b70a9-edd0-4017-83e4-fb59efd9c306">
+    <name>Итого</name>
+    <synonym>
+      <key>ru</key>
+      <value>Итого</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="bcc7ded2-e4ba-4edc-8439-e7c68bf6ed82">
+    <name>СкидочнаяКарта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Скидочная карта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СкидочныеКарты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4ce99e1f-c64a-4a0b-8dc2-3e82de4ef75c">
+    <name>Клиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Клиенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1594c893-4bc1-4b6d-95c2-8962cd8c8fc9">
+    <name>ОплатаСертификатом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оплата сертификатом</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d0548938-1040-4f11-a0cb-d08c01fa3e11">
+    <name>СертификатОплаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сертификат оплаты</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сертификаты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9c71d6e8-e461-40eb-8c96-77fe09fed774">
+    <name>Резерв</name>
+    <synonym>
+      <key>ru</key>
+      <value>Резерв</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2b8192bf-1c16-4f85-a4e0-092a42695297">
+    <name>ДатаРезерва</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата резерва</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6f21adf9-0c03-452a-9628-b3f8f75ff4e4">
+    <name>Доставка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доставка</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="bf78922a-3999-4ef1-8668-0fc4b914c3c4">
+    <name>Курьер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Курьер</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ae31a601-c7f5-48a1-912a-0ec8c7c5acf6">
+    <name>ГотовДляДоставки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Готов для доставки</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a328f905-b042-499e-b647-976a607b1f9f">
+    <name>СтатусЗаказа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус заказа</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусЗаказа</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2ac45f38-41da-4f00-97fd-0e504e765187">
+    <name>ПричинаНеУспешнойДоставки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Причина не успешной доставки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ab7ddec5-5ba9-48ef-926e-e364ad957eb0">
+    <name>ВремяВыдачиЗаказаКурьеру</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время выдачи заказа курьеру</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="1911afe5-4d08-4ad6-a465-0d8ce10e7a74">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4c90b6c0-249a-4c60-833c-f5f5761fc5cb">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="91af14e9-5889-4a87-baaf-1dfc8172488b">
+    <name>ФормаЗаказаНаДоставку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма заказа на доставку</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="2680839b-40cc-4248-8fca-24b938493c5f">
+    <producedTypes>
+      <objectType typeId="ef856da0-7180-4a6e-8141-81c16583b887" valueTypeId="4499e279-3c25-442c-a170-63b13bf343fc"/>
+      <rowType typeId="317044c4-5dba-4c6d-9221-b9e3f838b09f" valueTypeId="53becff4-bc8c-4770-b8de-8f83213768d7"/>
+    </producedTypes>
+    <name>Блюда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Блюда</value>
+    </synonym>
+    <attributes uuid="453590e9-7dd2-49ff-a620-39ce9a99978d">
+      <name>Блюдо</name>
+      <synonym>
+        <key>ru</key>
+        <value>Блюдо</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Блюда</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="41727728-4b92-449c-8f4e-5269b569d5d2">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>3</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="75c1a206-b58b-45c7-af40-047fa0bd2f75">
+      <name>Цена</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цена</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>8</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="51be9428-3e9a-4b89-badf-0972a11b496e">
+      <name>Сумма</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>12</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="28360f89-6db1-4c8e-8abd-6a968192edf0">
+      <name>Статус</name>
+      <synonym>
+        <key>ru</key>
+        <value>Статус</value>
+      </synonym>
+      <type>
+        <types>EnumRef.СтатусыБлюда</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f6e4b67d-1a36-4235-92f3-a58db4a84dc2">
+      <name>Повар</name>
+      <synonym>
+        <key>ru</key>
+        <value>Повар</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Сотрудники</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e12f804a-00f7-4e5f-9601-25b82ff46a67">
+      <name>ИдентификаторСтроки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Идентификатор строки</value>
+      </synonym>
+      <type>
+        <types>UUID</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="9e663c51-889d-451c-a81c-1cd875797b05">
+      <name>ПричинаОтказа</name>
+      <synonym>
+        <key>ru</key>
+        <value>Причина отказа</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ПричиныОтказаОтБлюд</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <templates uuid="cc2eb602-72d6-43a4-acf1-839a6ae1de70">
+    <name>ПредварительныйЧек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предварительный чек</value>
+    </synonym>
+  </templates>
+  <commands uuid="64c19941-cb99-423c-a9c6-59b7b4a307ed">
+    <name>Печать</name>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>DocumentRef.Заказы</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Document>

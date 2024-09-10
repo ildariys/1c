@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c17ddd25-41c7-4a2e-b654-85f397d13fe7">
+  <producedTypes>
+    <objectType typeId="1535ab2f-9892-4e56-9ee2-253a300a2f43" valueTypeId="90701b33-286e-4d84-8db6-1dfef052f4cf"/>
+    <refType typeId="b930b662-841a-45e1-b31e-928b27377889" valueTypeId="5673c8dd-3d56-4859-a5db-163d7d5c93bb"/>
+    <selectionType typeId="671085c2-085c-400c-95d3-45ab292f6ed4" valueTypeId="9674edc0-701e-4baa-941b-9a3a46e2ff8e"/>
+    <listType typeId="16916889-ab4f-4b4a-9199-c865d14113b2" valueTypeId="ab38a731-2891-44d8-99b9-6b8b8660034c"/>
+    <managerType typeId="f36d9085-68df-4210-9b11-22373fd5793a" valueTypeId="de75a046-9c18-4d18-bbe0-6c18945d5273"/>
+  </producedTypes>
+  <name>ПриходнаяНакладная</name>
+  <synonym>
+    <key>ru</key>
+    <value>Приходная накладная</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ПриходнаяНакладная.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ПриходнаяНакладная.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>AccumulationRegister.ПродуктыРесторана</registerRecords>
+  <registerRecords>InformationRegister.ЦеныЗакупкиНоменклатур</registerRecords>
+  <registerRecords>AccumulationRegister.Взаиморасчеты</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="4e46d646-e54d-44a1-9f6c-a64a74728707">
+    <name>Поставщик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поставщик</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Поставщики</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2535da15-8abe-4845-8d56-d0074d6139db">
+    <name>Ресторан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ресторан</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Рестораны</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="54a55f49-c0e2-4fb0-a8ea-8a71d1714850">
+    <name>Итого</name>
+    <synonym>
+      <key>ru</key>
+      <value>Итого</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="07d4f725-1f24-4c6b-8638-7806b74c9c2a">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="5c23c99e-5e72-461b-8c1d-6b120b8a161f">
+    <producedTypes>
+      <objectType typeId="bf4dde13-3f38-4d41-994e-ada31b190fab" valueTypeId="26ca5a33-fb21-4ba0-9399-fbb9bf1e258b"/>
+      <rowType typeId="a2ac524f-dd50-4135-b0ea-46144424827e" valueTypeId="3934abc8-51f9-464f-b50f-7be2a7d274be"/>
+    </producedTypes>
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <attributes uuid="33b1b0f6-6c96-4823-8337-f7dea58c5241">
+      <name>Номенклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.НоменклатураИнгридиентов</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="eda8b4ba-b2cc-4ff0-a9df-57216ce11c47">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f3b6f948-52d0-4583-beb2-1ffdf74cee5d">
+      <name>ЕдИзм</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ед.изм</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.УчетнаяЕдиница</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5c0d0d8a-6868-42a6-bec9-a08e140c3ed7">
+      <name>Цена</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цена</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>7</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="038494a1-a2b7-4119-a0ae-b3b6c9441c0f">
+      <name>Сумма</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

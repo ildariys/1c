@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="04f6728c-4985-49f9-b23d-8dddb92a5940">
+  <producedTypes>
+    <objectType typeId="ce97fafd-5b71-48c8-913f-7705ce8dbcd3" valueTypeId="c56f99ab-c7a1-4a9b-af15-860eef23c3db"/>
+    <managerType typeId="8083e262-16fc-4c4e-a696-31a50c50ce9a" valueTypeId="32ba9cbf-9806-44a9-b5b4-5f159718f18a"/>
+  </producedTypes>
+  <name>АРМОфициантНовый</name>
+  <synonym>
+    <key>ru</key>
+    <value>АРМОфициант новый</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.АРМОфициантНовый.Form.ФормаДокумента</defaultForm>
+  <attributes uuid="d9b3303b-a72e-47d0-9683-d76715e1f5c3">
+    <name>Официант</name>
+    <synonym>
+      <key>ru</key>
+      <value>Официант</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="d0619b80-737e-4456-ad45-d16ff4c35391">
+    <name>НомерСтола</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер стола</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Столы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="a5247f05-5ea2-4f9b-b988-97968899c5b4">
+    <name>ДатаЗакрытияЗаказа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата закрытия заказа</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="239b5e31-a15c-4bad-b1db-52bb7e53a1d8">
+    <name>ЗаказЗакрыт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ закрыт</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c47ac0cd-cd4b-4c7f-965d-859bfed9537c">
+    <name>Ресторан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ресторан</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Рестораны</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="bbee9406-1bd1-437f-8b7a-bc700e716f89">
+    <name>Итого</name>
+    <synonym>
+      <key>ru</key>
+      <value>Итого</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="bb5b43d1-7333-4641-a41c-191e96e0bfd2">
+    <name>СкидочнаяКарта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Скидочная карта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СкидочныеКарты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="7a88a242-0887-4b2e-b1c2-71481f1d1332">
+    <name>Клиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Клиенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="4f707f59-cba6-4568-9e23-2f03a09c50de">
+    <name>ОплатаСертификатом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оплата сертификатом</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="68393d40-fd52-4071-a21d-7ca8078dd2d0">
+    <name>СертификатОплаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сертификат оплаты</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сертификаты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="6404fcdb-5406-44a8-94bb-8772db36b935">
+    <name>Резерв</name>
+    <synonym>
+      <key>ru</key>
+      <value>Резерв</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5761a842-851d-4da2-8340-d4d31804a3fa">
+    <name>ДатаРезерва</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата резерва</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="42f12e92-5a8f-4236-87b6-c8659f458803">
+    <producedTypes>
+      <objectType typeId="aa1866ea-a25b-4029-92a6-9c74d79adfea" valueTypeId="6c9dfeda-32b8-4775-94a4-80d913713212"/>
+      <rowType typeId="cfe53891-3088-48d9-812e-b77aea8580dc" valueTypeId="a6754bc8-240e-4187-ba08-4b48bb47d7cb"/>
+    </producedTypes>
+    <name>Блюда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Блюда</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="f12fbf70-a2c5-44a3-9040-6cf5de54e9e8">
+      <name>Блюдо</name>
+      <synonym>
+        <key>ru</key>
+        <value>Блюдо</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Блюда</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="b1909bad-7eca-4ef3-bb76-843b8657ab29">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>3</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="f5c9adeb-b78f-486a-b045-3f497b880175">
+      <name>Цена</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цена</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>8</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="6435b4ad-ffd2-4662-8a6c-006be448e582">
+      <name>Сумма</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>12</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="0631905c-7b45-433c-b239-9f5f96fdec87">
+      <name>Статус</name>
+      <synonym>
+        <key>ru</key>
+        <value>Статус</value>
+      </synonym>
+      <type>
+        <types>EnumRef.СтатусыБлюда</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="f6e8a053-7528-4148-817b-8f5ee8c1a261">
+      <name>Повар</name>
+      <synonym>
+        <key>ru</key>
+        <value>Повар</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Сотрудники</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="32bf684b-ff28-4eb7-8e46-edd669c955ed">
+      <name>ИдентификаторСтроки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Идентификатор строки</value>
+      </synonym>
+      <type>
+        <types>UUID</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="e4dc0dac-4cf5-41e6-bdcb-f8340f359a59">
+      <name>ПричинаОтказа</name>
+      <synonym>
+        <key>ru</key>
+        <value>Причина отказа</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ПричиныОтказаОтБлюд</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="3e6418a2-8abd-4361-8a03-e600ace90f81">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f1641484-a00e-465f-bc69-2d8525848734">
+    <name>ФормаАвторизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма авторизации</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

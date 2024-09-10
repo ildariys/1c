@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="02cf6e2b-dfb2-4e56-a888-89ac8a290306">
+  <producedTypes>
+    <selectionType typeId="dccb5ec1-6134-4ed7-91eb-a4e7da3301c9" valueTypeId="146e1f49-5552-4115-ab88-3d1655d5386c"/>
+    <listType typeId="568f6996-63d8-49a1-a926-b39ddd7d13ec" valueTypeId="5bcc5547-ebc8-4cbe-9500-0fe6d9b66de0"/>
+    <managerType typeId="72525c52-42d5-47a0-852a-8ee0dd6e7ed0" valueTypeId="91b2434c-89e8-46f6-a6e3-ed38091a7ce1"/>
+    <recordSetType typeId="52ccd7b3-6066-4b21-81f3-b8d1dba9bbea" valueTypeId="9888c969-4487-4624-a744-2222d6c646c5"/>
+    <recordKeyType typeId="a7104842-00c6-4c46-b38e-a29169a3443b" valueTypeId="dc6caf53-4716-40fe-8c32-2100cb5a4d35"/>
+    <recordType typeId="154ff700-fabb-40db-b113-b5bc881e6d53" valueTypeId="7b725e44-2e19-4295-b72c-36009c1bb43a"/>
+  </producedTypes>
+  <name>ПродуктыРесторана</name>
+  <synonym>
+    <key>ru</key>
+    <value>Продукты ресторана</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="d251f6d2-930f-475b-a2be-b1b03c6ce144">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <attributes uuid="ac89f3e9-0078-41b9-90b9-5f773d3cce4c">
+    <name>ЕдиницаИзмерения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единица измерения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УчетнаяЕдиница</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <dimensions uuid="104045eb-e551-4254-a5ae-f84e71a16e43">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НоменклатураИнгридиентов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="a9647e7e-62da-4bec-9d33-95624ead90d4">
+    <name>Ресторан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ресторан</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Рестораны</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

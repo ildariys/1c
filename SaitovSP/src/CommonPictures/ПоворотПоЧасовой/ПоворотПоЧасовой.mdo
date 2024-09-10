@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f5f95dc9-02bd-435c-962b-80c652104bd3">
+  <name>ПоворотПоЧасовой</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поворот по часовой</value>
+  </synonym>
+</mdclass:CommonPicture>
