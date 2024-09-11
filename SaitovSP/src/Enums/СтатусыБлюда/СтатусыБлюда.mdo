@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="153e61dc-6635-4233-8e14-a96ce3160ff5">
+  <producedTypes>
+    <refType typeId="c87579af-b052-4337-aef4-99329435baae" valueTypeId="f3daab6a-d457-4fa4-8a37-f7461aa7aa4e"/>
+    <listType typeId="6601675f-ea39-4f22-bc1c-92347b973384" valueTypeId="7e169978-eddd-4319-90d9-ad95d363d8bc"/>
+    <managerType typeId="b570b723-75cd-411e-9ba0-1c89225ff9aa" valueTypeId="2abb8449-41d1-48ea-9d04-f9867ca1f516"/>
+  </producedTypes>
+  <name>СтатусыБлюда</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы блюда</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="26bfb03b-42ed-42e3-bd8b-61c1113e4a5c">
+    <name>Готовиться</name>
+    <synonym>
+      <key>ru</key>
+      <value>Готовиться</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0c2cf06b-8822-4cce-ac78-650378e633e3">
+    <name>Готово</name>
+    <synonym>
+      <key>ru</key>
+      <value>Готово</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="82fe4430-b45a-498b-b29e-a048d8f741ee">
+    <name>Отдано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отдано</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="47894588-b45b-4def-8b21-b0eaf0e26915">
+    <name>ЗаказПринят</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ принят</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6ec9dd39-0e3e-43e6-ab81-7a978b2636c4">
+    <name>ПереданНаКухню</name>
+    <synonym>
+      <key>ru</key>
+      <value>Передан на кухню</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

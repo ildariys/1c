@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3735912d-a1d4-4443-b2a0-d148818263d5">
+  <producedTypes>
+    <objectType typeId="0cf5e9e9-f730-4ea3-8693-690aa14a8b2e" valueTypeId="ef55a3a3-509a-48c0-b164-6f5096004b56"/>
+    <refType typeId="f28d4e50-db9a-43a8-a097-4379581bd8f0" valueTypeId="623af59a-7735-4b50-844c-fdad7469e315"/>
+    <selectionType typeId="fee0b790-163a-47e8-bb64-edc246ef9b37" valueTypeId="c2909cfd-3093-46ef-be50-001598b89088"/>
+    <listType typeId="6285a98c-468b-42f3-bf13-913c59c2d017" valueTypeId="eaac57d2-c575-41df-b243-46c0fa7eaaee"/>
+    <managerType typeId="68078e41-a3f7-4f4e-8547-95f35a9b969d" valueTypeId="6319639b-c5c5-4b45-a06a-6dc5a6768825"/>
+  </producedTypes>
+  <name>ТипыКарт</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы карт</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ТипыКарт.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ТипыКарт.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="23c6903c-6600-4484-9172-537b9e9b1a10">
+      <name>КаждыйНБесплатно</name>
+      <description>Каждый №  заказ бесплатно</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="8e731882-75ab-4379-8772-bdcd84ddefae">
+      <name>КаждыйНСреднийБесплатно</name>
+      <description>Каждый № средний бесплатно</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="50f8ab7c-452a-4f27-b9b1-b727d541168c">
+      <name>Скидка</name>
+      <description>Скидка</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b5ac4d6b-4c05-4221-9271-65cf346614de">
+  <producedTypes>
+    <selectionType typeId="0fdeb794-3a75-49e0-9e0b-de2ff63ac709" valueTypeId="d62f3957-6c3b-4c74-a81a-31cbbf158704"/>
+    <listType typeId="a36dae81-a454-4f06-bd13-bbb8ff534f71" valueTypeId="f8d5e369-16b8-4b44-b35b-2b4256d5564e"/>
+    <managerType typeId="e1d9cee0-bd0f-4a78-868e-392d5745e2e0" valueTypeId="ee58d8e5-e515-44bd-ae37-5851851e3677"/>
+    <recordSetType typeId="bb4faddf-1c15-4a5c-984c-f34c0c938d7e" valueTypeId="578a890e-ab90-40f1-84bb-df370f8cc2e7"/>
+    <recordKeyType typeId="89ef05b4-1a9a-4456-a665-749386eb1528" valueTypeId="807af96b-9cfd-4408-892d-bcd7d953e2ba"/>
+    <recordType typeId="edf9538e-278e-41f2-b27c-f7ec1906526d" valueTypeId="7d059096-c90b-4804-b1c0-cc67727a6d51"/>
+    <recordManagerType typeId="4355a5a8-2ff9-4ce9-b774-2e45c2319c7c" valueTypeId="413b1796-7d05-4e46-8e2c-9a7f5026977c"/>
+  </producedTypes>
+  <name>РазряднаяСетка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Разрядная сетка</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="9ee97db0-8bd9-4eed-9e66-e1fb9794e5b1">
+    <name>Оклад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оклад</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="fef2bb22-eb25-4b5d-9134-a243ff9515ff">
+    <name>Разряд</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разряд</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Разряды</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="7c9f99a2-193a-455f-ae46-e7c215454916">
+    <name>Ресторан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ресторан</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Рестораны</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

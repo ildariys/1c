@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="569a71ed-dd92-4d45-bd1b-798d63e0e8c0">
+  <producedTypes>
+    <selectionType typeId="0415e834-0b9a-4187-8eb8-756b2ff2dabb" valueTypeId="e4cdc512-368c-48f8-90fc-f391ed0771a6"/>
+    <listType typeId="4cb7ea4f-625d-4a9c-a2f8-a0f47b8b761a" valueTypeId="454159cb-d83f-4980-af75-38dca9cbae9d"/>
+    <managerType typeId="4a67b415-2e85-44da-a458-269f479cb370" valueTypeId="1a477ca4-8cd4-4585-bf69-d8a445eb8e13"/>
+    <recordSetType typeId="06fbc097-a035-4b41-992d-efc21bc89600" valueTypeId="3acb1901-685a-4c27-97cb-68f8f5eb4739"/>
+    <recordKeyType typeId="cd6c50a8-6510-4b74-9bd3-529795e0aade" valueTypeId="c6155bfc-5dc2-4845-8e3e-df77fbdf967b"/>
+    <recordType typeId="7e0b298c-57aa-4b15-9e24-0b6633189dd2" valueTypeId="760e1547-317f-493d-b8b9-0b2a80c443f0"/>
+    <recordManagerType typeId="2de8f8d8-8d64-49ef-89f2-003c3922c972" valueTypeId="451bddc4-88eb-4271-95d0-c39a07d27b9d"/>
+  </producedTypes>
+  <name>НеоходимыеОстатки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Неоходимые остатки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="fcc478d7-c4e0-4482-bf19-0b09603983c4">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="928c4163-98c5-4bce-a637-69868f078848">
+    <name>УчетнаяЕдиница</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учетная единица</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УчетнаяЕдиница</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="d0f42a9a-0365-4488-b3ff-b24f1708f094">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НоменклатураИнгридиентов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="93f71175-6e66-4958-a7ea-2916495be5d4">
+    <name>Повар</name>
+    <synonym>
+      <key>ru</key>
+      <value>Повар</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="46e2f0b0-f8db-459b-89f0-4774cac4794b">
+    <name>Ресторан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ресторан</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Рестораны</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

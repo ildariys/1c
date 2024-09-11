@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c226a3f0-5906-428d-be41-4fedf8f07a5a">
+  <producedTypes>
+    <objectType typeId="bfce3031-3979-45ca-9dd0-a257c89f77af" valueTypeId="3947e01e-4845-4c1b-963a-734efb19e19b"/>
+    <refType typeId="a887ddd5-2673-4c83-b33c-2cb9471515c2" valueTypeId="f557673f-4a2b-4d8b-a094-2620a6e4566c"/>
+    <selectionType typeId="cc968c3d-9641-4b7c-be79-e89c429f025e" valueTypeId="e8035046-2cce-4aa6-9b81-e6549c2afbaa"/>
+    <listType typeId="fc3e61f5-69fb-445f-9f02-ae342f298ff1" valueTypeId="af29eca6-1796-4b0f-9d21-d81024f6b700"/>
+    <managerType typeId="a48b8ad0-017d-4dc2-9a65-7c93a4ccfefe" valueTypeId="70ea1d6f-0365-409e-8d61-5c4036fe1a5a"/>
+  </producedTypes>
+  <name>Рестораны</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рестораны</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Рестораны.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Рестораны.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="5badcc7a-bad2-4c90-805b-29b0650a170a">
+      <name>Офисы</name>
+      <description>Офис</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="40afd339-a845-42b3-a799-581fe3f7ada1">
+        <name>ЦентральныйОфис</name>
+        <description>Центральный офис</description>
+        <code xsi:type="core:StringValue">
+          <value>000000004</value>
+        </code>
+      </content>
+    </items>
+    <items id="8be665e6-2b4d-4be5-b336-2a70c77a1c9f">
+      <name>Рестораны</name>
+      <description>Рестораны</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+    <items id="b5fb5d9e-2a82-4887-beda-21eac6eb343a">
+      <name>Склады</name>
+      <description>Склады</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="842e2079-3856-425a-b581-1667c74ae593">
+    <name>Адрес</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="775d7925-2c00-41af-9c57-ea8f5010d8b3">
+    <name>Телефон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Телефон</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>17</length>
+      </stringQualifiers>
+    </type>
+    <mask>+7(999)999 9999</mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b1a2ae46-c52c-49c0-b116-b93a391e0ff0">
+    <name>Руководитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Руководитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="51d0e81d-87fd-4574-b0ed-ecfde4ef7125">
+    <name>ДатаОткрытия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата открытия</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

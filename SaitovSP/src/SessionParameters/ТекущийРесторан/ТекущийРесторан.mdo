@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SessionParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="263af39d-6264-42c3-bed2-99132402a295">
+  <name>ТекущийРесторан</name>
+  <synonym>
+    <key>ru</key>
+    <value>Текущий ресторан</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Рестораны</types>
+  </type>
+</mdclass:SessionParameter>

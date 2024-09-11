@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bba439ab-fa0b-4b1b-a954-a916eeab8788">
+  <name>Настройки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonModule.ПриНачалеРаботыСистемыСервер</content>
+  <content>CommonModule.ПолучениеДанныхТекущегоСеансаСервер</content>
+  <content>SessionParameter.ТекущийПользователь</content>
+  <content>SessionParameter.ТекущийРесторан</content>
+  <content>Role.Администраторы</content>
+  <content>Role.МенеджерыРесторана</content>
+  <content>f8a69945-c19f-4b4f-9f9c-68d014b1a948</content>
+  <content>Role.ОбслуживающийПерсонал</content>
+  <content>Role.Бухгалтер</content>
+  <content>ef25b77c-c9e1-4e7d-9d17-38004a7143a4</content>
+  <content>Role.Повар</content>
+  <content>Role.Официант</content>
+  <content>Constant.СуммаВыдачиБонуснойКарты</content>
+</mdclass:Subsystem>

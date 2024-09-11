@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0025c34f-c4f6-496d-9af2-d51485c0f508">
+  <producedTypes>
+    <selectionType typeId="5bfcf032-d1f6-4b00-b822-11baa7449450" valueTypeId="83ea9a3d-4776-4d53-9aa5-3c9ee2358419"/>
+    <listType typeId="e4f92643-7b86-4f0a-9f50-200ecb212070" valueTypeId="b706be53-fb4d-46f7-9216-55ab230ac2e3"/>
+    <managerType typeId="065a7e18-c10a-48a4-a29f-80a731fb817d" valueTypeId="0aba5455-ab15-4596-b82a-da4005d6a166"/>
+    <recordSetType typeId="d3693a87-8e0b-4df5-a976-9bbee7c6558f" valueTypeId="3d76750a-b6a9-429c-8c0d-7e9edf818085"/>
+    <recordKeyType typeId="f0bb96a8-16fe-4536-a16d-03d6fee93805" valueTypeId="0a08830a-c814-4aea-b890-b6aebe66540d"/>
+    <recordType typeId="02f0d49e-0d1e-4cf7-ad53-df394e77b9b7" valueTypeId="6089ca97-59d2-4ace-bf53-c36bc36459a7"/>
+    <recordManagerType typeId="e4f87f19-865c-4216-9ad2-37ff9c5d8b93" valueTypeId="46ecfb53-3906-4a1e-b017-0eaa0e93be66"/>
+  </producedTypes>
+  <name>ИсторияОтказовОтБлюд</name>
+  <synonym>
+    <key>ru</key>
+    <value>История отказов от блюд</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="dbdee511-8843-4b6b-a4be-80538f311c0e">
+    <name>ИдентификаторСтроки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор строки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>32</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="826c3028-2bb1-4ca3-a540-f3b1a99d682d">
+    <name>Причина</name>
+    <synonym>
+      <key>ru</key>
+      <value>Причина</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПричиныОтказаОтБлюд</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="2dc53c68-14cb-46a7-9b16-b2be3ecb2892">
+    <name>Блюдо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Блюдо</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Блюда</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="f120c99d-3a1f-4278-9865-1d1d24a09ba2">
+    <name>Повар</name>
+    <synonym>
+      <key>ru</key>
+      <value>Повар</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="dac43170-0ebc-498c-b87e-280e0d106fde">
+    <name>Официант</name>
+    <synonym>
+      <key>ru</key>
+      <value>Официант</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

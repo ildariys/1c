@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4d1d0a1b-0c67-461b-9c68-1c7958898260">
+  <name>Заказы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заказы</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.Заказы</content>
+  <content>InformationRegister.ИсторияОтказовОтБлюд</content>
+  <content>Catalog.ПричиныОтказаОтБлюд</content>
+</mdclass:Subsystem>

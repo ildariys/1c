@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f051ced6-571b-469e-9e0e-bc391ca6fb16">
+  <name>Курьер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Курьер</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor.АрмКурьера</content>
+</mdclass:Subsystem>

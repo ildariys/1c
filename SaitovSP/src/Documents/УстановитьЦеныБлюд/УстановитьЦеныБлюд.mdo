@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c7624866-a050-423b-ae66-7083acbdeacf">
+  <producedTypes>
+    <objectType typeId="86f40d60-0a58-414f-9d09-1f66403b73e4" valueTypeId="515318fc-e5c4-42d5-b136-7e54cec02053"/>
+    <refType typeId="d6c769a6-a486-4c01-803b-3d07644feabe" valueTypeId="172307e5-9ac0-4b22-b66a-16ef6b9a8593"/>
+    <selectionType typeId="c44bceaf-fee0-464e-ad8f-3f14d70549d9" valueTypeId="cba7be9a-0e8c-46d3-b125-aa1bbb507a87"/>
+    <listType typeId="b03c5d80-089f-4a9c-8866-ea2f90d1e509" valueTypeId="42b405fe-d01a-4b25-bba2-2267a596379b"/>
+    <managerType typeId="f600bb0c-6ad8-47d8-b18e-11dbccfecd56" valueTypeId="bf8055b2-3419-4e67-8c25-658f1a59c966"/>
+  </producedTypes>
+  <name>УстановитьЦеныБлюд</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установить цены блюд</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.УстановитьЦеныБлюд.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.УстановитьЦеныБлюд.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>InformationRegister.ЦеныБлюд</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="1e96797b-8658-45c2-8142-c91d0c185575">
+    <name>Автор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="6cc0da2b-f3f7-4735-b835-589b0a48dc8a">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="7c10f007-9079-4668-9767-ce7edeac9f68">
+    <producedTypes>
+      <objectType typeId="66b36aa5-8af7-489a-bbae-1c4b67dbb6ef" valueTypeId="bde858f7-4bb9-4450-8b7b-b9dfd81e349c"/>
+      <rowType typeId="17f9c54b-b771-42aa-b0b0-631e012a4eaf" valueTypeId="92620e94-f24e-4039-bfb4-292ab173f191"/>
+    </producedTypes>
+    <name>Блюда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Блюда</value>
+    </synonym>
+    <attributes uuid="df556909-6227-4ec3-b67b-6968f16a85d1">
+      <name>Блюдо</name>
+      <synonym>
+        <key>ru</key>
+        <value>Блюдо</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Блюда</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="deff39a0-2e38-43d1-bd7d-07d96c2ade66">
+      <name>Цена</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цена</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f40d38a7-5e76-4c8a-a024-2ad61c71604b">
+  <name>Меню</name>
+  <synonym>
+    <key>ru</key>
+    <value>Меню</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.Заказы</content>
+  <content>Catalog.Блюда</content>
+  <content>Enum.РазделыМеню</content>
+  <content>Report.Меню</content>
+  <content>InformationRegister.ЦеныБлюд</content>
+  <content>InformationRegister.ГотовностьБлюд</content>
+</mdclass:Subsystem>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8399c2ff-bb25-404b-8ea1-41fc5e0d2da8">
+  <producedTypes>
+    <objectType typeId="dca04d3e-822a-4539-81c7-59711c14c50d" valueTypeId="4814b902-ff18-47fb-87d5-13d88db018ce"/>
+    <refType typeId="456e011a-44e6-46f9-a20d-78fd3895e484" valueTypeId="4f6d1b9a-608c-4756-93fb-4d504eecbce0"/>
+    <selectionType typeId="f4d13403-9394-4f68-ae46-af547144c2af" valueTypeId="560bf5eb-8255-419e-9b16-2abf9d2acc71"/>
+    <listType typeId="75620f87-baf9-4d0c-9d01-824137570cdc" valueTypeId="e7a778cb-8c11-4169-88f3-e30c9fee28c2"/>
+    <managerType typeId="140cc9d6-79ed-4fbc-86b9-604f4ea9b8b0" valueTypeId="a3b1ada8-ed43-4590-aa4d-ea246b550a22"/>
+  </producedTypes>
+  <name>Разряды</name>
+  <synonym>
+    <key>ru</key>
+    <value>Разряды</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Разряды.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Разряды.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="94a43dff-fc0b-414a-8760-d75974bd3d1e">
+      <name>Втрой</name>
+      <description>Втрой</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="b6636de4-d6bf-4dcc-bbc8-2f22339cca43">
+      <name>Директор</name>
+      <description>Директор</description>
+      <code xsi:type="core:StringValue">
+        <value>000000005</value>
+      </code>
+    </items>
+    <items id="52a671bd-c3a9-4080-bf3b-3025320d2d47">
+      <name>Менеджер</name>
+      <description>Менеджер</description>
+      <code xsi:type="core:StringValue">
+        <value>000000006</value>
+      </code>
+    </items>
+    <items id="12952095-27e0-4f9b-83f9-5a239dec822c">
+      <name>Первый</name>
+      <description>Первый</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="f89090d3-e84c-4566-806b-c382b8e25a32">
+      <name>Повар</name>
+      <description>Повар</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+    <items id="6f0b7424-c9a3-4e2c-b625-1ea6e87ee463">
+      <name>Третий</name>
+      <description>Третий</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

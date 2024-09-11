@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7b20a82a-6946-406b-94bb-e40996a89910">
+  <producedTypes>
+    <objectType typeId="f147678c-dd68-4929-9d2d-0d482314d4dd" valueTypeId="4906d746-6401-4733-9cef-3e1d9ed2e760"/>
+    <refType typeId="b33972e9-4dc6-40ab-95fa-e23210d7803f" valueTypeId="fd9f4c8d-43ef-41c0-8e57-334856e3e9ed"/>
+    <selectionType typeId="7bf8500c-9f4d-4e45-a5f1-532857669938" valueTypeId="7192b4c1-a3f6-4b7d-b23d-0a057392b5a3"/>
+    <listType typeId="58ff0573-17ad-4602-8a24-f2d7bd30063d" valueTypeId="09523518-444a-48b5-9572-0441c7101be7"/>
+    <managerType typeId="2479db7d-6d71-4104-881c-9e2a4272004a" valueTypeId="57f349c1-7502-4c31-8687-7409ddf30073"/>
+  </producedTypes>
+  <name>УчетнаяЕдиница</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учетная единица</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.УчетнаяЕдиница.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.УчетнаяЕдиница.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

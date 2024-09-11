@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="03934a0e-3269-4ed7-84ce-ba723594e249">
+  <producedTypes>
+    <objectType typeId="c9c6e72a-ee32-44fe-b69c-35cecba069e9" valueTypeId="ac4add91-03c7-4a2b-8cf6-426744567354"/>
+    <refType typeId="f470b73f-a5f7-4853-9467-06e1bcf74b4c" valueTypeId="5942e393-be57-4ddf-a175-81db79d94c56"/>
+    <selectionType typeId="cd7fb2fa-65e7-46f5-8b9d-af643d44c9ff" valueTypeId="e83235ef-382b-4731-ac39-ff46a3eecf27"/>
+    <listType typeId="1ac62f50-ff94-4a91-a0ba-f51f909634a7" valueTypeId="f989c802-b9c3-48c4-8416-0faead91f24d"/>
+    <managerType typeId="a0f5886e-7ec3-4c99-bdd3-80e3335ac8e6" valueTypeId="e466910d-e0bc-4b4d-b028-20b21b8e663c"/>
+  </producedTypes>
+  <name>Сертификаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сертификаты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Сертификаты.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Сертификаты.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="4fdff84f-0c73-4f96-aee1-16cb28135f68">
+    <name>ДатаВыдачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата выдачи</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4db7a5af-df7f-4619-a21a-3c30e73d6c59">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="8c8b3971-a661-498f-aadf-47f345596740">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="a90be2e2-6a23-4d0f-b3b1-1693610fcdbd">
+    <name>Печать</name>
+  </templates>
+  <commands uuid="e5c878f1-32d1-437a-9051-f4f2f00ffcb0">
+    <name>Печать</name>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.Сертификаты</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Catalog>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f412e1f6-7b18-4168-a6a1-740b93957916">
+  <producedTypes>
+    <objectType typeId="ffd10d3f-7672-4b5d-861f-f2c6c3768ff3" valueTypeId="290b3d1e-8f29-4288-9a25-33871a70bd50"/>
+    <refType typeId="206be0ba-3e05-476d-8426-c3652004a3b1" valueTypeId="2f0e0174-f350-4e2a-8dcc-e7c112c9d925"/>
+    <selectionType typeId="7c61b5eb-54ff-412d-8263-218744d74e1c" valueTypeId="0c13beb7-bad6-4223-b6d2-ebaa86a34f41"/>
+    <listType typeId="7b7890aa-4b0d-4384-9db3-bf84c529ac72" valueTypeId="12762e14-a783-4dd3-b7b2-b5341e7e0f72"/>
+    <managerType typeId="df5623cc-fbc3-49cb-8dc2-8b8f66058d30" valueTypeId="f9c4977c-afed-4d49-9123-c85a833babdd"/>
+  </producedTypes>
+  <name>ПричиныОтказаОтБлюд</name>
+  <synonym>
+    <key>ru</key>
+    <value>Причины отказа от блюд</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ПричиныОтказаОтБлюд.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ПричиныОтказаОтБлюд.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultChoiceForm>Catalog.ПричиныОтказаОтБлюд.Form.ФормаВыбора</defaultChoiceForm>
+  <forms uuid="a9c77a1c-84b3-4cfe-beec-0d2fb0cd5a1d">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

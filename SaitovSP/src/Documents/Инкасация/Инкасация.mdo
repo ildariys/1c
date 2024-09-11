@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="410a5198-4f3a-43c7-a066-af3e27f1b07d">
+  <producedTypes>
+    <objectType typeId="532ef7cc-185b-44b6-beea-68af9a45e7d0" valueTypeId="cd48ef98-6864-465a-8866-674ceda125c0"/>
+    <refType typeId="b3663dfd-9781-4e0c-8647-efb4197a1705" valueTypeId="0ef0e63c-5510-43cf-bb1f-fc21bcf190b0"/>
+    <selectionType typeId="b21da45c-5fd9-4b41-89bd-22ed2fd5ed42" valueTypeId="21b70733-b471-44ff-bf3d-4a8f084c67c4"/>
+    <listType typeId="8185434c-9c2d-4688-8b4e-67736df13da5" valueTypeId="6eafda1f-a810-44de-b814-e09d9850b681"/>
+    <managerType typeId="e6e4f397-ff96-4ca5-b5b8-fc3fdfca0c17" valueTypeId="7b51a5a7-6221-4143-ad38-2c5941cc8af4"/>
+  </producedTypes>
+  <name>Инкасация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Инкасация</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Инкасация.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.Инкасация.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>AccumulationRegister.ДенежныеСредстваСети</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="686ef90a-716a-476f-b6d6-566a83d1fdf8">
+    <name>РесторанИнкасации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ресторан инкасации</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Рестораны</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a5ac3619-00b6-468c-8b32-a96e4af43cd0">
+    <name>Офис</name>
+    <synonym>
+      <key>ru</key>
+      <value>Офис</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Рестораны</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="524c598a-89d3-403e-8e1a-08d64e27ec71">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d51de8f8-51ce-4b46-aaeb-e274c4670681">
+    <name>ВыручкаРесторана</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выручка ресторана</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="15f8d7af-8895-4222-a36d-70aff8d564d7">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>

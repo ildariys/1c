@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="abbcab1e-56fe-4842-a934-663160271176">
+  <producedTypes>
+    <selectionType typeId="b75a040c-c21b-46ce-8387-cd80617ea1fc" valueTypeId="0d06ebb9-c79f-4a2e-b352-4a69599d0387"/>
+    <listType typeId="4040796f-5088-474a-ae2a-3f93e86eb3dc" valueTypeId="c0dd3f99-cfc2-42a6-91bc-6d345cc2f4e8"/>
+    <managerType typeId="8547dc0e-6630-4e56-85e4-33b5f0258eaa" valueTypeId="fd59f6d2-4b34-4316-bea5-72b9b144a5b9"/>
+    <recordSetType typeId="d334b037-f4ee-4588-8e12-4cced45dc7c4" valueTypeId="6c626364-b290-4068-b230-ae9aa7448d4e"/>
+    <recordKeyType typeId="8a9982d6-675d-4f84-be38-c78c4e5d00db" valueTypeId="11e49e51-5602-4d5c-a071-912474182882"/>
+    <recordType typeId="d596eb0f-195b-4edb-b804-344bf51ee486" valueTypeId="39118b31-941c-4c7c-84b8-c4b9759e0569"/>
+  </producedTypes>
+  <name>СуммаЗаказовКлиенты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сумма заказов клиенты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="741c33ae-51fb-4db3-9354-1af0982364d9">
+    <name>СуммаЗаказа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма заказа</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="5eb6cdd9-5142-48bc-983b-5e7bdae52c26">
+    <name>Клиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Клиенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="06da8d9b-4b48-4ebf-8501-e05f3e21ac74">
+    <name>Официант</name>
+    <synonym>
+      <key>ru</key>
+      <value>Официант</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="399ecb7a-1693-45b2-accb-8ab406e4e443">
+    <name>Ресторан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ресторан</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Рестораны</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

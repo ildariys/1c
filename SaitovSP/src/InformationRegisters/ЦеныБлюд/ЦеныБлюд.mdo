@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6079f7d0-281b-4e8b-aa0f-dbe3154c67a3">
+  <producedTypes>
+    <selectionType typeId="b08f9856-1a67-4eb3-8616-e0536f701e0e" valueTypeId="7b3a5efe-8486-4c1f-bc81-c17aea338d68"/>
+    <listType typeId="d236ab61-e885-4687-9954-91ed36bef533" valueTypeId="9ebe9266-23a6-4c09-b1c8-cb2842c4cf9f"/>
+    <managerType typeId="e6c528a1-644b-4ba9-bd33-17e61dcca1e8" valueTypeId="6ed34d69-9160-49a8-8139-e59fa690f158"/>
+    <recordSetType typeId="f56d2369-17b9-4512-8ac2-ab1e55e398cc" valueTypeId="38575921-b7f9-45c8-83fc-d0c177be78ed"/>
+    <recordKeyType typeId="7cd496dc-f733-49ac-8bd3-c54ed4bb3e0a" valueTypeId="be878806-2f8c-499c-9558-71a0c348540b"/>
+    <recordType typeId="b493d064-1224-4bae-a0f1-fa4b49b95b42" valueTypeId="dd8398b9-a1bb-439a-8b58-70e1a9ff0ddf"/>
+    <recordManagerType typeId="6abc3dbd-bfdc-4893-a4ed-a90e30b1ee4e" valueTypeId="2040487a-25da-4fb3-ab0c-5d482b7b9e90"/>
+  </producedTypes>
+  <name>ЦеныБлюд</name>
+  <synonym>
+    <key>ru</key>
+    <value>Цены блюд</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="1df85e4d-ed6a-4987-8993-f2785ba17aff">
+    <name>Цена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="cc6ecd92-5278-4482-8d10-39d189b21266">
+    <name>Блюдо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Блюдо</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Блюда</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="1b1dd0f6-a210-4fa4-8af9-0363ab39a301">
+    <name>Автор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="d409e952-d0ba-4cf4-8c3c-5834183c1e2c">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

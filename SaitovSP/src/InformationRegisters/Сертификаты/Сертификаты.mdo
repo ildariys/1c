@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9861b281-e56a-4bbb-be5b-be1386c770ed">
+  <producedTypes>
+    <selectionType typeId="0198cce5-43fd-46e4-8d77-9f6962475dfd" valueTypeId="15341855-e280-433f-b7b1-f358b6c9612a"/>
+    <listType typeId="d44e5a4f-6309-4c1a-8c70-1e4f1b71dfa5" valueTypeId="1ec221c4-12d4-4421-aa30-da4cd595954e"/>
+    <managerType typeId="4f433c39-ca46-48b1-993a-d0a23fa366ea" valueTypeId="0cadc46c-0809-4c7b-b1c5-09394ab21701"/>
+    <recordSetType typeId="5bc29d56-8918-4b50-91f7-44d3425c4ebb" valueTypeId="bd11f3b2-77f3-4929-8915-8e1de527a07b"/>
+    <recordKeyType typeId="56370f94-44a7-4415-94c0-4107d12601b8" valueTypeId="e21a9cfe-da00-4e59-a595-f36270c1d61c"/>
+    <recordType typeId="79671003-fd9b-4598-b59d-740b3d279af9" valueTypeId="9741479d-76a7-4063-85ee-6f2064f3b822"/>
+    <recordManagerType typeId="7f172fda-ad31-49a4-9f93-93ad491e212d" valueTypeId="0489032d-b528-44ea-bd32-5e937cd69e8f"/>
+  </producedTypes>
+  <name>Сертификаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сертификаты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="e3153b12-f281-40d5-bc47-27999df1c607">
+    <name>СуммаСертификата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма сертификата</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="156544e9-01e5-4984-a21b-3243b31bc2f2">
+    <name>СуммаЗаказа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма заказа</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ded52a0e-774b-47ee-a010-68ff87e2547d">
+    <name>НеиспользованнаяСуммаСертификата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Неиспользованная сумма сертификата</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a4a85c1a-d578-47a4-99d8-db5c2bd3e812">
+    <name>Погашен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Погашен</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="c281533e-3d55-48a2-bb15-79b9b93e18b9">
+    <name>Сертификат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сертификат</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сертификаты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
