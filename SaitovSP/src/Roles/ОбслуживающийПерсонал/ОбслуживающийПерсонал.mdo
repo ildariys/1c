@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="88fcd3db-b0fc-4512-a14a-2b2db14f211a">
-  <name>ОбслуживающийПерсонал</name>
-  <synonym>
-    <key>ru</key>
-    <value>Обслуживающий персонал</value>
-  </synonym>
-</mdclass:Role>

@@ -70,26 +70,11 @@
   <registerRecords>AccumulationRegister.ЗароботнаяПлата</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
-  <attributes uuid="7db6d511-e524-4c77-a2d8-6fa7ae9987d0">
-    <name>Ресторан</name>
-    <synonym>
-      <key>ru</key>
-      <value>Ресторан</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.Рестораны</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <attributes uuid="e7bb3be4-39a6-4da2-9b57-507df36524fb">
-    <name>Директор</name>
+    <name>Бухгалтер</name>
     <synonym>
       <key>ru</key>
-      <value>Директор</value>
+      <value>Бухгалтер</value>
     </synonym>
     <type>
       <types>CatalogRef.Сотрудники</types>

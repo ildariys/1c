@@ -50,6 +50,10 @@
 				</v8:item>
 			</title>
 		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Ресторан</dataPath>
+			<field>Ресторан</field>
+		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
 	СуммаЗаказовКлиентыОбороты.Официант КАК Официант,
@@ -78,7 +82,7 @@
 			</v8:DateQualifiers>
 		</valueType>
 		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
-		<useRestriction>false</useRestriction>
+		<useRestriction>true</useRestriction>
 		<expression>&amp;ПериодДатаНачала</expression>
 		<availableAsField>false</availableAsField>
 	</parameter>
@@ -97,7 +101,7 @@
 			</v8:DateQualifiers>
 		</valueType>
 		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
-		<useRestriction>false</useRestriction>
+		<useRestriction>true</useRestriction>
 		<expression>&amp;ПериодДатаКолец</expression>
 		<availableAsField>false</availableAsField>
 	</parameter>

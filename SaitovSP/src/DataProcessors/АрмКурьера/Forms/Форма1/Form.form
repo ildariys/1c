@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form" xmlns:schema="http://g5.1c.ru/v8/dt/data-composition-system/schema">
   <items xsi:type="form:Table">
-    <name>Реквизит1</name>
+    <name>СписокЗаказов</name>
     <id>1</id>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -9,11 +9,11 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Реквизит1</segments>
+      <segments>СписокЗаказов</segments>
     </dataPath>
     <titleLocation>None</titleLocation>
     <items xsi:type="form:FormField">
-      <name>Реквизит1Ссылка</name>
+      <name>СписокЗаказовСсылка</name>
       <id>14</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -21,10 +21,10 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Реквизит1.Ссылка</segments>
+        <segments>СписокЗаказов.Ссылка</segments>
       </dataPath>
       <extendedTooltip>
-        <name>Реквизит1СсылкаРасширеннаяПодсказка</name>
+        <name>СписокЗаказовСсылкаРасширеннаяПодсказка</name>
         <id>16</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -39,7 +39,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>Реквизит1СсылкаКонтекстноеМеню</name>
+        <name>СписокЗаказовСсылкаКонтекстноеМеню</name>
         <id>15</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -63,7 +63,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>Реквизит1Курьер</name>
+      <name>СписокЗаказовКурьер</name>
       <id>17</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -71,10 +71,10 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Реквизит1.Курьер</segments>
+        <segments>СписокЗаказов.Курьер</segments>
       </dataPath>
       <extendedTooltip>
-        <name>Реквизит1КурьерРасширеннаяПодсказка</name>
+        <name>СписокЗаказовКурьерРасширеннаяПодсказка</name>
         <id>19</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -89,7 +89,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>Реквизит1КурьерКонтекстноеМеню</name>
+        <name>СписокЗаказовКурьерКонтекстноеМеню</name>
         <id>18</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -113,7 +113,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>Реквизит1Ресторан</name>
+      <name>СписокЗаказовРесторан</name>
       <id>20</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -121,10 +121,10 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Реквизит1.Ресторан</segments>
+        <segments>СписокЗаказов.Ресторан</segments>
       </dataPath>
       <extendedTooltip>
-        <name>Реквизит1РесторанРасширеннаяПодсказка</name>
+        <name>СписокЗаказовРесторанРасширеннаяПодсказка</name>
         <id>22</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -139,7 +139,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>Реквизит1РесторанКонтекстноеМеню</name>
+        <name>СписокЗаказовРесторанКонтекстноеМеню</name>
         <id>21</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -163,7 +163,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>Реквизит1Клиент</name>
+      <name>СписокЗаказовКлиент</name>
       <id>23</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -171,10 +171,10 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Реквизит1.Клиент</segments>
+        <segments>СписокЗаказов.Клиент</segments>
       </dataPath>
       <extendedTooltip>
-        <name>Реквизит1КлиентРасширеннаяПодсказка</name>
+        <name>СписокЗаказовКлиентРасширеннаяПодсказка</name>
         <id>25</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -189,7 +189,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>Реквизит1КлиентКонтекстноеМеню</name>
+        <name>СписокЗаказовКлиентКонтекстноеМеню</name>
         <id>24</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -213,7 +213,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>Реквизит1КлиентНомерТелефона</name>
+      <name>СписокЗаказовКлиентНомерТелефона</name>
       <id>26</id>
       <title>
         <key>ru</key>
@@ -225,10 +225,10 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Реквизит1.КлиентНомерТелефона</segments>
+        <segments>СписокЗаказов.КлиентНомерТелефона</segments>
       </dataPath>
       <extendedTooltip>
-        <name>Реквизит1КлиентНомерТелефонаРасширеннаяПодсказка</name>
+        <name>СписокЗаказовКлиентНомерТелефонаРасширеннаяПодсказка</name>
         <id>28</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -243,7 +243,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>Реквизит1КлиентНомерТелефонаКонтекстноеМеню</name>
+        <name>СписокЗаказовКлиентНомерТелефонаКонтекстноеМеню</name>
         <id>27</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -267,7 +267,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>Реквизит1КлиентАдресДоставки</name>
+      <name>СписокЗаказовКлиентАдресДоставки</name>
       <id>29</id>
       <title>
         <key>ru</key>
@@ -279,10 +279,10 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Реквизит1.КлиентАдресДоставки</segments>
+        <segments>СписокЗаказов.КлиентАдресДоставки</segments>
       </dataPath>
       <extendedTooltip>
-        <name>Реквизит1КлиентАдресДоставкиРасширеннаяПодсказка</name>
+        <name>СписокЗаказовКлиентАдресДоставкиРасширеннаяПодсказка</name>
         <id>31</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -297,7 +297,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>Реквизит1КлиентАдресДоставкиКонтекстноеМеню</name>
+        <name>СписокЗаказовКлиентАдресДоставкиКонтекстноеМеню</name>
         <id>30</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -321,7 +321,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>Реквизит1СтатусЗаказа</name>
+      <name>СписокЗаказовСтатусЗаказа</name>
       <id>43</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -329,10 +329,10 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Реквизит1.СтатусЗаказа</segments>
+        <segments>СписокЗаказов.СтатусЗаказа</segments>
       </dataPath>
       <extendedTooltip>
-        <name>Реквизит1СтатусЗаказаРасширеннаяПодсказка</name>
+        <name>СписокЗаказовСтатусЗаказаРасширеннаяПодсказка</name>
         <id>45</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -347,7 +347,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>Реквизит1СтатусЗаказаКонтекстноеМеню</name>
+        <name>СписокЗаказовСтатусЗаказаКонтекстноеМеню</name>
         <id>44</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -371,7 +371,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>Реквизит1ГотовДляДоставки</name>
+      <name>СписокЗаказовГотовДляДоставки</name>
       <id>34</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -379,10 +379,10 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Реквизит1.ГотовДляДоставки</segments>
+        <segments>СписокЗаказов.ГотовДляДоставки</segments>
       </dataPath>
       <extendedTooltip>
-        <name>Реквизит1ГотовДляДоставкиРасширеннаяПодсказка</name>
+        <name>СписокЗаказовГотовДляДоставкиРасширеннаяПодсказка</name>
         <id>36</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -397,7 +397,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>Реквизит1ГотовДляДоставкиКонтекстноеМеню</name>
+        <name>СписокЗаказовГотовДляДоставкиКонтекстноеМеню</name>
         <id>35</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -414,7 +414,7 @@
       <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
     </items>
     <autoCommandBar>
-      <name>Реквизит1КоманднаяПанель</name>
+      <name>СписокЗаказовКоманднаяПанель</name>
       <id>2</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -422,6 +422,7 @@
         <common>true</common>
       </userVisible>
       <horizontalAlign>Left</horizontalAlign>
+      <autoFill>true</autoFill>
     </autoCommandBar>
     <searchStringAddition>
       <visible>true</visible>
@@ -429,10 +430,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <name>Реквизит1СтрокаПоиска</name>
+      <name>СписокЗаказовСтрокаПоиска</name>
       <id>5</id>
       <extendedTooltip>
-        <name>Реквизит1СтрокаПоискаРасширеннаяПодсказка</name>
+        <name>СписокЗаказовСтрокаПоискаРасширеннаяПодсказка</name>
         <id>7</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -447,7 +448,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>Реквизит1СтрокаПоискаКонтекстноеМеню</name>
+        <name>СписокЗаказовСтрокаПоискаКонтекстноеМеню</name>
         <id>6</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -456,7 +457,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <source>Реквизит1СтрокаПоиска</source>
+      <source>СписокЗаказовСтрокаПоиска</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -467,10 +468,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <name>Реквизит1СостояниеПросмотра</name>
+      <name>СписокЗаказовСостояниеПросмотра</name>
       <id>11</id>
       <extendedTooltip>
-        <name>Реквизит1СостояниеПросмотраРасширеннаяПодсказка</name>
+        <name>СписокЗаказовСостояниеПросмотраРасширеннаяПодсказка</name>
         <id>13</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -485,7 +486,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>Реквизит1СостояниеПросмотраКонтекстноеМеню</name>
+        <name>СписокЗаказовСостояниеПросмотраКонтекстноеМеню</name>
         <id>12</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -495,7 +496,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
-      <source>Реквизит1СостояниеПросмотра</source>
+      <source>СписокЗаказовСостояниеПросмотра</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -506,10 +507,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <name>Реквизит1УправлениеПоиском</name>
+      <name>СписокЗаказовУправлениеПоиском</name>
       <id>8</id>
       <extendedTooltip>
-        <name>Реквизит1УправлениеПоискомРасширеннаяПодсказка</name>
+        <name>СписокЗаказовУправлениеПоискомРасширеннаяПодсказка</name>
         <id>10</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -524,7 +525,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>Реквизит1УправлениеПоискомКонтекстноеМеню</name>
+        <name>СписокЗаказовУправлениеПоискомКонтекстноеМеню</name>
         <id>9</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -534,13 +535,13 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
-      <source>Реквизит1УправлениеПоиском</source>
+      <source>СписокЗаказовУправлениеПоиском</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>Реквизит1РасширеннаяПодсказка</name>
+      <name>СписокЗаказовРасширеннаяПодсказка</name>
       <id>4</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -555,7 +556,7 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>Реквизит1КонтекстноеМеню</name>
+      <name>СписокЗаказовКонтекстноеМеню</name>
       <id>3</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -722,6 +723,7 @@
       <common>true</common>
     </userVisible>
     <horizontalAlign>Left</horizontalAlign>
+    <autoFill>true</autoFill>
   </autoCommandBar>
   <handlers>
     <event>ChoiceProcessing</event>
@@ -744,7 +746,11 @@
   <showTitle>true</showTitle>
   <showCloseButton>true</showCloseButton>
   <attributes>
-    <name>Реквизит1</name>
+    <name>СписокЗаказов</name>
+    <title>
+      <key>ru</key>
+      <value>Список заказов</value>
+    </title>
     <id>1</id>
     <valueType>
       <types>DynamicList</types>
@@ -757,19 +763,19 @@
     </edit>
     <extInfo xsi:type="form:DynamicListExtInfo">
       <queryText>ВЫБРАТЬ
-	Заказы.Ссылка,
-	Заказы.Курьер,
-	Заказы.Ресторан,
-	Заказы.Клиент,
-	Заказы.Клиент.НомерТелефона,
-	Заказы.Клиент.АдресДоставки,
-	Заказы.ГотовДляДоставки,
-	Заказы.СтатусЗаказа
+	Заказы.Ссылка КАК Ссылка,
+	Заказы.Курьер КАК Курьер,
+	Заказы.Ресторан КАК Ресторан,
+	Заказы.Клиент КАК Клиент,
+	Заказы.Клиент.НомерТелефона КАК КлиентНомерТелефона,
+	Заказы.Клиент.АдресДоставки КАК КлиентАдресДоставки,
+	Заказы.ГотовДляДоставки КАК ГотовДляДоставки,
+	Заказы.СтатусЗаказа КАК СтатусЗаказа
 ИЗ
 	Документ.Заказы КАК Заказы
 ГДЕ
-	НЕ Заказы.ЗаказЗакрыт
-	И Заказы.Доставка</queryText>
+	Заказы.Доставка</queryText>
+      <mainTable>Document.Заказы</mainTable>
       <autoFillAvailableFields>true</autoFillAvailableFields>
       <customQuery>true</customQuery>
       <autoSaveUserSettings>true</autoSaveUserSettings>
@@ -805,6 +811,82 @@
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>СтатусЗаказа</dataPath>
         <field>СтатусЗаказа</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>СкидочнаяКарта</dataPath>
+        <field>СкидочнаяКарта</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>НомерСтола</dataPath>
+        <field>НомерСтола</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Номер</dataPath>
+        <field>Номер</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ДатаЗакрытияЗаказа</dataPath>
+        <field>ДатаЗакрытияЗаказа</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Официант</dataPath>
+        <field>Официант</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ЗаказЗакрыт</dataPath>
+        <field>ЗаказЗакрыт</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>СертификатОплаты</dataPath>
+        <field>СертификатОплаты</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Итого</dataPath>
+        <field>Итого</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ОплатаСертификатом</dataPath>
+        <field>ОплатаСертификатом</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Резерв</dataPath>
+        <field>Резерв</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ДатаРезерва</dataPath>
+        <field>ДатаРезерва</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Доставка</dataPath>
+        <field>Доставка</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ПричинаНеУспешнойДоставки</dataPath>
+        <field>ПричинаНеУспешнойДоставки</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ВремяВыдачиЗаказаКурьеру</dataPath>
+        <field>ВремяВыдачиЗаказаКурьеру</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Блюда</dataPath>
+        <field>Блюда</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Проведен</dataPath>
+        <field>Проведен</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>МоментВремени</dataPath>
+        <field>МоментВремени</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Дата</dataPath>
+        <field>Дата</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ПометкаУдаления</dataPath>
+        <field>ПометкаУдаления</field>
       </fields>
     </extInfo>
   </attributes>

@@ -14,10 +14,9 @@
   <content>Role.Администраторы</content>
   <content>Role.МенеджерыРесторана</content>
   <content>f8a69945-c19f-4b4f-9f9c-68d014b1a948</content>
-  <content>Role.ОбслуживающийПерсонал</content>
-  <content>Role.Бухгалтер</content>
+  <content>Role.Бухгалтера</content>
   <content>ef25b77c-c9e1-4e7d-9d17-38004a7143a4</content>
-  <content>Role.Повар</content>
-  <content>Role.Официант</content>
+  <content>Role.Повара</content>
+  <content>Role.Официанты</content>
   <content>Constant.СуммаВыдачиБонуснойКарты</content>
 </mdclass:Subsystem>

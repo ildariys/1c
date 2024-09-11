@@ -157,7 +157,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Report.ОтчетОПродажаж</name>
+		<name>Report.ОтчетОПродажах</name>
 		<right>
 			<name>Use</name>
 			<value>false</value>

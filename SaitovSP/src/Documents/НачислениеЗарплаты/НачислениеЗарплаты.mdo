@@ -45,10 +45,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="b5d7ff0a-d996-4fb5-a987-8762939002a9">
-    <name>Директор</name>
+    <name>Ответственный</name>
     <synonym>
       <key>ru</key>
-      <value>Директор</value>
+      <value>Ответственный</value>
     </synonym>
     <type>
       <types>CatalogRef.Сотрудники</types>

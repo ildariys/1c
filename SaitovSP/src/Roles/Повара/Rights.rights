@@ -145,6 +145,17 @@
 		</right>
 	</object>
 	<object>
+		<name>SessionParameter.ТекущийРесторан</name>
+		<right>
+			<name>Get</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Set</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Report.Меню</name>
 		<right>
 			<name>Use</name>
@@ -398,6 +409,17 @@
 		</right>
 		<right>
 			<name>Posting</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>SessionParameter.ТекущийПользователь</name>
+		<right>
+			<name>Get</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Set</name>
 			<value>true</value>
 		</right>
 	</object>

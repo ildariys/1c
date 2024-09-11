@@ -2,25 +2,27 @@
 <Settings xmlns="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core">
 	<filter>
 		<item xsi:type="FilterItemComparison">
-			<left xsi:type="dcscor:Field">Ссылка.Дата.ДатыНачала.НачалоДня</left>
-			<comparisonType>LessOrEqual</comparisonType>
-			<viewMode>Normal</viewMode>
-			<userSettingID>3c94196b-48d8-40b4-98be-ade019c60780</userSettingID>
-			<userSettingPresentation xsi:type="xs:string">ДатаНачала</userSettingPresentation>
+			<left xsi:type="dcscor:Field">ЗаказЗакрыт</left>
+			<comparisonType>Equal</comparisonType>
+			<right xsi:type="xs:boolean">false</right>
+			<userSettingID>b8f14b76-85e1-41fb-9517-e2398e9e3763</userSettingID>
 		</item>
 		<item xsi:type="FilterItemComparison">
-			<left xsi:type="dcscor:Field">Ссылка.Дата.ДатыКонца.КонецДня</left>
-			<comparisonType>GreaterOrEqual</comparisonType>
+			<left xsi:type="dcscor:Field">Дата.ДатыНачала.НачалоДня</left>
+			<comparisonType>Greater</comparisonType>
 			<right xsi:type="v8:StandardBeginningDate">
 				<v8:variant xsi:type="v8:StandardBeginningDateVariant">Custom</v8:variant>
 				<v8:date>0001-01-01T00:00:00</v8:date>
 			</right>
-			<viewMode>Normal</viewMode>
-			<userSettingID>9981bd23-189f-46a4-807b-1bcdf3c701e2</userSettingID>
-			<userSettingPresentation xsi:type="xs:string">КонецДня</userSettingPresentation>
+			<userSettingID>843c8ca8-7e11-45fd-8721-ba3104774914</userSettingID>
 		</item>
-		<viewMode>Normal</viewMode>
 		<userSettingID>f1826bcb-f6c8-4213-ad2c-0c251ae98ed5</userSettingID>
+		<userSettingPresentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Быстрые настройки</v8:content>
+			</v8:item>
+		</userSettingPresentation>
 	</filter>
 	<order>
 		<viewMode>Normal</viewMode>
