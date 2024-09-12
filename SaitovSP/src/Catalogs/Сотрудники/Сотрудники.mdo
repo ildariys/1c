@@ -196,21 +196,6 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="6c111552-aa07-4563-92e8-e042c3ed5283">
-    <name>Ресторан</name>
-    <synonym>
-      <key>ru</key>
-      <value>Ресторан</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.Рестораны</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <attributes uuid="c195982d-71e7-4980-996e-468fde0413c8">
     <name>ИмяПользователя</name>
     <synonym>
