@@ -28,6 +28,7 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.Сертификаты.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultChoiceForm>Catalog.Сертификаты.Form.ФормаВыбора</defaultChoiceForm>
   <attributes uuid="4fdff84f-0c73-4f96-aee1-16cb28135f68">
     <name>ДатаВыдачи</name>
     <synonym>
@@ -69,6 +70,15 @@
     <synonym>
       <key>ru</key>
       <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1aedbcdc-8b53-4a48-9fe7-56539efc5d16">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
