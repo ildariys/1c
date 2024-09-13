@@ -66,6 +66,8 @@
   <commonModules>CommonModule.ОбщийСервер</commonModules>
   <commonModules>CommonModule.ОбработкаТабличныхЧастейКлиент</commonModules>
   <commonModules>CommonModule.ОписаниеРегламентныхЗаданий</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначения</commonModules>
+  <httpServices>HTTPService.Orders</httpServices>
   <scheduledJobs>ScheduledJob.ЗакрытиеДокументовДоставки</scheduledJobs>
   <constants>Constant.СуммаВыдачиБонуснойКарты</constants>
   <constants>Constant.ВремяДоставки</constants>

@@ -10,4 +10,5 @@
   <content>Document.Заказы</content>
   <content>InformationRegister.ИсторияОтказовОтБлюд</content>
   <content>Catalog.ПричиныОтказаОтБлюд</content>
+  <content>HTTPService.Orders</content>
 </mdclass:Subsystem>
