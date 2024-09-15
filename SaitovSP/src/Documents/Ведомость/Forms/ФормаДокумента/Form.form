@@ -389,10 +389,6 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Объект.Зарплаты.ЗаработнаяПлата</segments>
       </dataPath>
-      <handlers>
-        <event>OnChange</event>
-        <name>ЗарплатыЗаработнаяПлатаПриИзменении</name>
-      </handlers>
       <extendedTooltip>
         <name>ЗарплатыЗаработнаяПлатаРасширеннаяПодсказка</name>
         <id>40</id>
@@ -424,14 +420,6 @@
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
       <extInfo xsi:type="form:InputFieldExtInfo">
-        <handlers>
-          <event>EditTextChange</event>
-          <name>ЗарплатыЗаработнаяПлатаИзменениеТекстаРедактирования</name>
-        </handlers>
-        <handlers>
-          <event>StartChoice</event>
-          <name>ЗарплатыЗаработнаяПлатаНачалоВыбора</name>
-        </handlers>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <wrap>true</wrap>

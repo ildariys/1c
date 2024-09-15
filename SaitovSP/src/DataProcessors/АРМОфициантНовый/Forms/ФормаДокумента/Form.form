@@ -1240,7 +1240,7 @@
                     <autoMaxWidth>true</autoMaxWidth>
                     <autoMaxHeight>true</autoMaxHeight>
                     <wrap>true</wrap>
-                    <autoMarkIncomplete>true</autoMarkIncomplete>
+                    <autoMarkIncomplete>false</autoMarkIncomplete>
                     <chooseType>true</chooseType>
                     <typeDomainEnabled>true</typeDomainEnabled>
                     <textEdit>true</textEdit>
@@ -1295,7 +1295,7 @@
                     <autoMaxWidth>true</autoMaxWidth>
                     <autoMaxHeight>true</autoMaxHeight>
                     <wrap>true</wrap>
-                    <autoMarkIncomplete>true</autoMarkIncomplete>
+                    <autoMarkIncomplete>false</autoMarkIncomplete>
                     <chooseType>true</chooseType>
                     <typeDomainEnabled>true</typeDomainEnabled>
                     <textEdit>true</textEdit>
@@ -1635,6 +1635,7 @@
                 <horizontalLines>true</horizontalLines>
                 <verticalLines>true</verticalLines>
                 <autoInsertNewRow>true</autoInsertNewRow>
+                <autoMarkIncomplete>false</autoMarkIncomplete>
                 <searchOnInput>Auto</searchOnInput>
                 <initialListView>Auto</initialListView>
                 <horizontalStretch>true</horizontalStretch>

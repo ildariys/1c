@@ -15,6 +15,10 @@
     <items xsi:type="form:FormField">
       <name>СписокЗаказовСсылка</name>
       <id>14</id>
+      <title>
+        <key>ru</key>
+        <value>Заказ</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
