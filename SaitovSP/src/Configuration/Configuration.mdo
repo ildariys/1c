@@ -12,7 +12,6 @@
   <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="ad380bf0-e033-4140-ae9a-de0038e379e8"/>
   <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="0292e8c8-55a8-4253-a4d7-086d02566f91"/>
   <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="c5bb7b97-135a-4f68-8b70-b5718f84ea89"/>
-  <configurationExtensionCompatibilityMode>8.3.20</configurationExtensionCompatibilityMode>
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
@@ -67,6 +66,8 @@
   <commonModules>CommonModule.ОбработкаТабличныхЧастейКлиент</commonModules>
   <commonModules>CommonModule.ОписаниеРегламентныхЗаданий</commonModules>
   <commonModules>CommonModule.ОбщегоНазначения</commonModules>
+  <commonModules>CommonModule.ДанныеКлиентаСервер</commonModules>
+  <commonModules>CommonModule.ДанныеОКлиентеСервер</commonModules>
   <httpServices>HTTPService.Orders</httpServices>
   <scheduledJobs>ScheduledJob.ЗакрытиеДокументовДоставки</scheduledJobs>
   <constants>Constant.СуммаВыдачиБонуснойКарты</constants>

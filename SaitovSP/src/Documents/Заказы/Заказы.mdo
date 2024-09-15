@@ -23,7 +23,7 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
-  <defaultObjectForm>Document.Заказы.Form.ФормаДокумента</defaultObjectForm>
+  <defaultObjectForm>Document.Заказы.Form.ФормаДокумента1</defaultObjectForm>
   <defaultListForm>Document.Заказы.Form.ФормаСписка</defaultListForm>
   <realTimePosting>Deny</realTimePosting>
   <registerRecords>InformationRegister.ИсторияОтказовОтБлюд</registerRecords>
@@ -334,6 +334,15 @@
     <synonym>
       <key>ru</key>
       <value>Форма заказа на доставку</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e257c09b-ea2e-42fd-90b9-b559600749f7">
+    <name>ФормаДокумента1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа1</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

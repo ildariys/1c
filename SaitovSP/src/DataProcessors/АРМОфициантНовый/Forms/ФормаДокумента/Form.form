@@ -2074,6 +2074,10 @@
       <items xsi:type="form:Button">
         <name>ФормаОтправитьНаКухню</name>
         <id>173</id>
+        <title>
+          <key>ru</key>
+          <value>Принять заказ</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -2262,58 +2266,6 @@
     <edit>
       <common>true</common>
     </edit>
-  </attributes>
-  <attributes>
-    <name>ТЗСтолы</name>
-    <title>
-      <key>ru</key>
-      <value>ТЗСтолы</value>
-    </title>
-    <id>8</id>
-    <valueType>
-      <types>ValueTable</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-    <columns>
-      <name>Ссылка</name>
-      <title>
-        <key>ru</key>
-        <value>Ссылка</value>
-      </title>
-      <id>1</id>
-      <valueType>
-        <types>CatalogRef.Столы</types>
-      </valueType>
-      <view>
-        <common>true</common>
-      </view>
-      <edit>
-        <common>true</common>
-      </edit>
-    </columns>
-    <columns>
-      <name>Наименование</name>
-      <title>
-        <key>ru</key>
-        <value>Наименование</value>
-      </title>
-      <id>2</id>
-      <valueType>
-        <types>String</types>
-        <stringQualifiers/>
-      </valueType>
-      <view>
-        <common>true</common>
-      </view>
-      <edit>
-        <common>true</common>
-      </edit>
-    </columns>
   </attributes>
   <attributes>
     <name>СсылкаЗаказ</name>
